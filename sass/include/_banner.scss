@@ -1,0 +1,28 @@
+
+#banner{
+    background-image: url('../../assets/images/backgroundimg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .space{
+        display: flex;
+        justify-content: center;
+        padding-top: 14rem;
+        width: 100%;
+        height: 800px;
+        color: white;
+
+        .buttons{
+            >a{
+                margin-right:.7rem;
+                padding: .4rem 1.8px;
+                &:hover{
+                    background: white !important;
+                }
+            }
+        }
+
+    }
+
+}
