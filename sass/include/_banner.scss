@@ -2,27 +2,36 @@
 #banner{
     background-image: url('../../assets/images/backgroundimg1.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
 
     .space{
         display: flex;
-        justify-content: center;
-        padding-top: 14rem;
+        justify-content: left;
+        padding: 14rem 6rem 0rem 7rem;
         width: 100%;
         height: 800px;
-        color: white;
+        color: #fff;
 
-        .buttons{
-            >a{
-                margin-right:.7rem;
-                padding: .4rem 1.8px;
-                &:hover{
-                    background: white !important;
-                }
-            }
-        }
-
+     .buttons{
+         >a{
+             margin-right: .7rem;
+             padding: .4rem 1.8rem;
+             &:hover{
+                 background: #fff !important;
+                 >span{
+                     color: $dark;
+                 }
+             }
+         }
+     }
     }
 
+    @media screen and (max-width: 992px){
+        .space{
+            padding: 10rem 3rem 0rem 3rem;
+            height: 700px;
+            text-align: center;
+        }
+    }
 }
