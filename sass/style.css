@@ -11604,6 +11604,9 @@ body {
   width: 100%;
   z-index: 999;
 }
+#header .navbar .navbar-toggler {
+  border: none;
+}
 #header .navbar .navbar-toggler:focus,
 #header .navbar .navbar-toggler:active,
 #header .navbar .navbar-toggler-icon:focus {
